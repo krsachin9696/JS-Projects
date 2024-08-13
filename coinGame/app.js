@@ -60,26 +60,3 @@ const moveCoin = () => {
 }
 
 moveCoin()
-
-const arr = [{
-    name: "Ritik"
-},
-{
-    name: "Vikas"
-},
-{
-    name: "Ricky"
-},
-{
-    name: "Shobu"
-},
-{
-    name: "Rajan"
-},]
-
-// arr.forEach((val) => console.log(val.name))
-
-const newArr = arr.slice(3)
-newArr[0] = "jdifhd"
-console.log(newArr)
-console.log(arr)
