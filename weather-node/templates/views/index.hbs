@@ -1,0 +1,28 @@
+{{!-- instead of static pages, dynamic template can be rendered using hbs --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        
+        <p>Use this site to get your weather!</p>
+
+        <form action="">
+            <input type="text" placeholder="location">
+            <button type="submit">Search</button>
+        </form>
+
+        <p id="msg1"></p>
+        <p id="msg2"></p>
+    </div>
+
+    {{>footer}}
+    <script src="js/app.js"></script>
+</body>
+</html>
